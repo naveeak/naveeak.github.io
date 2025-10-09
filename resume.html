@@ -5,153 +5,108 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Ashok Kumar – Resume</title>
 <style>
-  :root{
-    --primary:#1F4E79; /* professional navy-blue */
-    --text:#222;
-    --muted:#555;
-    --rule:#e6e6e6;
-  }
-  html,body{margin:0;padding:0;background:#fff;color:var(--text);font-family:Calibri, Arial, Helvetica, "Segoe UI", sans-serif;line-height:1.5}
-  .page{max-width:820px;margin:28px auto 64px;background:#fff;border:1px solid #f3f3f3;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
-  .header{background:var(--primary);color:#fff;padding:26px 32px}
-  .name{font-size:28px;font-weight:700;margin:0 0 6px}
-  .title{font-size:16px;margin:0;opacity:.95}
-  .contact{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px;font-size:14px;opacity:.95}
-  .contact span,.contact a{color:#e9f1f9;text-decoration:none}
-  .wrap{padding:28px 32px}
-  h2{font-size:16px;color:var(--primary);text-transform:uppercase;letter-spacing:.06em;margin:22px 0 8px}
-  .rule{height:1px;background:var(--rule);margin:8px 0 14px}
-  p{margin:0 0 10px}
-  .list{margin:0;padding-left:16px}
-  .list li{margin:6px 0}
-  .job{margin:14px 0 10px}
-  .job .role{font-weight:700}
-  .job .meta{color:var(--muted);font-size:13px;margin-top:2px}
-  .skills-grid{display:grid;grid-template-columns:180px 1fr;gap:8px 16px;margin-top:6px}
-  .tagline{margin:6px 0 14px}
-  .small{font-size:13px;color:var(--muted)}
-  @media print{
-    .page{box-shadow:none;border:none;margin:0}
-    .header{padding:18pt 20pt}
-    .wrap{padding:18pt 20pt}
-  }
+  body{font-family:Calibri,Arial,sans-serif;margin:0;background:#fff;color:#222;line-height:1.5}
+  .page{max-width:820px;margin:24px auto;padding:32px;border:1px solid #eee;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+  h1{margin:0;font-size:28px;color:#111}
+  h2{margin:20px 0 6px;font-size:16px;color:#1F4E79;text-transform:uppercase;letter-spacing:.04em}
+  h3{margin:8px 0 2px;font-size:15px;color:#000}
+  .subtitle{font-size:16px;font-style:italic;color:#333;margin-bottom:4px}
+  .contact{font-size:13px;color:#444;margin:4px 0 10px}
+  .links{font-size:13px;color:#1F4E79;margin-bottom:12px}
+  .links a{color:#1F4E79;text-decoration:none;margin-right:12px}
+  hr{border:none;border-top:1px solid #ddd;margin:10px 0 14px}
+  p{margin:0 0 8px}
+  ul{margin:4px 0 10px 20px;padding:0}
+  li{margin-bottom:4px}
+  .summary-bar{font-size:13px;text-align:center;color:#555;margin:6px 0 12px}
+  .section{margin-bottom:14px}
+  @media print{.page{box-shadow:none;border:none;margin:0}}
 </style>
 </head>
 <body>
   <div class="page">
-    <header class="header">
-      <h1 class="name">Ashok Kumar</h1>
-      <p class="title">Big Data Software Engineer | AWS Certified Solutions Architect – Associate</p>
-      <div class="contact">
-        <span>Chennai, India</span>
-        <span>•</span>
-        <span>+91 89736 55202</span>
-        <span>•</span>
-        <span>ashokmuthusamy99@gmail.com</span>
-        <span>•</span>
-        <a href="https://tinyurl.com/ashokmuthusamy" target="_blank" rel="noopener">LinkedIn</a>
-        <span>•</span>
-        <a href="https://github.com/naveeak" target="_blank" rel="noopener">GitHub</a>
-      </div>
-    </header>
+    <h1>Ashok Kumar</h1>
+    <div class="subtitle">Big Data Engineer</div>
+    <div class="contact">Chennai, India • +91 89736 55202 • ashokmuthusamy99@gmail.com</div>
+    <div class="links">
+      <a href="https://tinyurl.com/ashokmuthusamy" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/naveeak" target="_blank">GitHub</a>
+    </div>
+    <hr/>
 
-    <main class="wrap">
-      <section>
-        <h2>Professional Summary</h2>
-        <div class="rule"></div>
-        <p class="tagline">
-          Results-driven <strong>Big Data Software Engineer</strong> with 4+ years building
-          <strong>scalable cloud-native data frameworks</strong> for financial analytics and compliance.
-          Expert in <strong>Apache Spark</strong>, <strong>Kafka Streams</strong>, and
-          <strong>Spring Boot</strong> microservices on <strong>Kubernetes</strong>. Proven in delivering
-          reliable <strong>ETL pipelines</strong> and <strong>observability</strong> (Grafana, Prometheus).
-          AWS Certified; focused on high-performance real-time processing and actionable insights.
-        </p>
-      </section>
+    <div class="summary-bar">Spark • Kafka • Spring Boot • Kubernetes • AWS • Hive • HBase • Grafana • Prometheus</div>
+    <hr/>
 
-      <section>
-        <h2>Experience</h2>
-        <div class="rule"></div>
+    <div class="section">
+      <h2>Professional Summary</h2>
+      <p>Results-driven <strong>Big Data Engineer</strong> with 4 + years of experience designing and implementing
+         <strong>scalable, cloud-ready data frameworks</strong> for financial analytics and compliance.
+         Expert in <strong>Apache Spark</strong>, <strong>Kafka Streams</strong>, and <strong>Spring Boot</strong>
+         microservices on <strong>Kubernetes</strong>. Skilled at building reliable <strong>ETL pipelines</strong>
+         and enabling observability with <strong>Grafana</strong> and <strong>Prometheus</strong>.
+         Passionate about optimizing large-scale data ingestion and real-time processing systems for high-performance analytics.</p>
+    </div>
 
-        <div class="job">
-          <div class="role">Software Engineer (C11) — Citi India</div>
-          <div class="meta">Chennai, India · Sep 2023 – Present</div>
-          <ul class="list">
-            <li>Designed and implemented <strong>real-time, cloud-native data frameworks</strong> using Kafka Streams, Apache Spark, and Spring Boot on Kubernetes.</li>
-            <li>Built and maintained <strong>ETL pipelines</strong> enabling analytics, compliance, and client insights.</li>
-            <li>Improved <strong>reliability & observability</strong> with Grafana and Prometheus across services.</li>
-          </ul>
-        </div>
+    <div class="section">
+      <h2>Experience</h2>
 
-        <div class="job">
-          <div class="role">Software Engineer (C10) — Citi India</div>
-          <div class="meta">Chennai, India · Jul 2021 – Sep 2023</div>
-          <ul class="list">
-            <li>Built high-performance <strong>ingestion pipelines</strong> for millions of financial records using HBase, Hive, and Couchbase.</li>
-            <li>Enhanced data accessibility and performance for global analytics and regulatory reporting.</li>
-          </ul>
-        </div>
+      <h3>Software Engineer (C11) — Citi India</h3>
+      <div class="contact">Chennai, India · Sep 2023 – Present</div>
+      <ul>
+        <li>Designed and implemented <strong>real-time, cloud-ready data frameworks</strong> using Kafka Streams, Spark, and Spring Boot on Kubernetes.</li>
+        <li>Developed ETL pipelines for analytics, compliance, and reporting workflows.</li>
+        <li>Enhanced system reliability and monitoring with Grafana and Prometheus.</li>
+      </ul>
 
-        <div class="job">
-          <div class="role">Software Engineer (C09) — Citi India</div>
-          <div class="meta">Chennai, India · Aug 2020 – Jun 2021</div>
-          <ul class="list">
-            <li>Engineered <strong>Spark-based ETL applications</strong> on Cloudera clusters processing <strong>FIX</strong> messages.</li>
-            <li>Improved enrichment, transformation, and storage for analytics-ready datasets.</li>
-          </ul>
-        </div>
+      <h3>Software Engineer (C10) — Citi India</h3>
+      <div class="contact">Jul 2021 – Sep 2023</div>
+      <ul>
+        <li>Built data-ingestion systems handling millions of financial records using HBase, Hive, and Couchbase.</li>
+        <li>Improved data availability and performance for global financial analytics.</li>
+      </ul>
 
-        <div class="job">
-          <div class="role">Software Engineer Intern — Anna University</div>
-          <div class="meta">Chennai, India · Apr 2019 – May 2019</div>
-          <ul class="list">
-            <li>Developed an <strong>IoT-based RFID & image-recognition security system</strong> for hospitals (NHHID sponsored).</li>
-          </ul>
-        </div>
-      </section>
+      <h3>Software Engineer (C09) — Citi India</h3>
+      <div class="contact">Aug 2020 – Jun 2021</div>
+      <ul>
+        <li>Developed Spark-based ETL applications on Cloudera clusters processing FIX messages.</li>
+        <li>Optimized data transformation and storage for analytics-ready datasets.</li>
+      </ul>
 
-      <section>
-        <h2>Key Projects</h2>
-        <div class="rule"></div>
-        <ul class="list">
-          <li><strong>Real-Time Kafka–Spark Data Pipeline</strong> — Streaming ingestion of millions of FIX messages via Spark Structured Streaming; persisted enriched data to HBase for analytics dashboards.</li>
-          <li><strong>Financial Data ETL Framework</strong> — Automated Spark enrichment & validation on Cloudera; achieved ~40% faster data availability for reporting.</li>
-        </ul>
-      </section>
+      <h3>Software Engineer Intern — Anna University</h3>
+      <div class="contact">Apr 2019 – May 2019</div>
+      <ul>
+        <li>Developed an <strong>IoT-based RFID and image-recognition infant security system</strong> for hospitals to ensure safe infant identification and monitoring (NHHID sponsored).</li>
+      </ul>
+    </div>
 
-      <section>
-        <h2>Education</h2>
-        <div class="rule"></div>
-        <p><strong>B.E. — Electrical, Electronics & Communication</strong><br/>
-           Anna University, Chennai · 2016 – 2020</p>
-        <p class="small" style="margin-top:6px;"><strong>Higher Secondary Certificate — Mathematics</strong><br/>
-           Veveaham Higher Secondary School, Dharapuram · 2014 – 2016</p>
-      </section>
+    <div class="section">
+      <h2>Key Projects</h2>
+      <ul>
+        <li><strong>Real-Time Kafka–Spark Pipeline</strong> — Built streaming pipeline ingesting millions of FIX messages via Spark Structured Streaming and persisted enriched data to HBase.</li>
+        <li><strong>Financial Data ETL Framework</strong> — Automated Spark enrichment and validation on Cloudera, achieving ~40 % faster data availability for reporting.</li>
+      </ul>
+    </div>
 
-      <section>
-        <h2>Certifications</h2>
-        <div class="rule"></div>
-        <p><strong>AWS Certified Solutions Architect – Associate</strong>, Amazon Web Services</p>
-      </section>
+    <div class="section">
+      <h2>Education</h2>
+      <p><strong>B.E. — Electrical, Electronics & Communication</strong><br>Anna University, Chennai (2016 – 2020)</p>
+      <p><strong>HSC — Mathematics</strong><br>Veveaham Higher Secondary School, Dharapuram (2014 – 2016)</p>
+    </div>
 
-      <section>
-        <h2>Technical Skills</h2>
-        <div class="rule"></div>
-        <div class="skills-grid">
-          <div class="small"><strong>Big Data</strong></div><div>Apache Spark, Kafka Streams, Hive, HBase, Couchbase</div>
-          <div class="small"><strong>Cloud / DevOps</strong></div><div>AWS, Kubernetes, Tekton, Harness</div>
-          <div class="small"><strong>Backend</strong></div><div>Java, Spring Boot, REST APIs</div>
-          <div class="small"><strong>Monitoring</strong></div><div>Grafana, Prometheus</div>
-          <div class="small"><strong>CI/CD & Tools</strong></div><div>Git, Jenkins, Linux, SQL, ETL Pipelines</div>
-        </div>
-      </section>
+    <div class="section">
+      <h2>Certifications</h2>
+      <p>AWS Certified Solutions Architect – Associate (Amazon Web Services)</p>
+    </div>
 
-      <section>
-        <h2>Languages</h2>
-        <div class="rule"></div>
-        <p>English — Advanced · Tamil — Advanced</p>
-      </section>
-    </main>
+    <div class="section">
+      <h2>Technical Skills</h2>
+      <p>Big Data – Kafka – Spark – Hive – HBase – Couchbase | Cloud/DevOps – AWS – Kubernetes – Tekton – Harness | Backend – Java – Spring Boot | Monitoring – Grafana – Prometheus | Tools – Git – Jenkins – Linux – SQL</p>
+    </div>
+
+    <div class="section">
+      <h2>Languages</h2>
+      <p>English – Advanced · Tamil – Advanced</p>
+    </div>
   </div>
 </body>
 </html>
