@@ -20,92 +20,81 @@
   li{margin-bottom:4px}
   .summary-bar{font-size:13px;text-align:center;color:#555;margin:6px 0 12px}
   .section{margin-bottom:14px}
+  .skill-category{margin-bottom:8px}
+  .skill-category strong{display:inline-block;width:180px}
+  .job-title{font-weight:bold}
+  .job-dates{color:#666;font-size:13px}
   @media print{.page{box-shadow:none;border:none;margin:0}}
 </style>
 </head>
 <body>
   <div class="page">
     <h1>Ashok Kumar</h1>
-    <div class="subtitle">Big Data Engineer</div>
-    <div class="contact">Chennai, India • +91 89736 55202 • ashokmuthusamy99@gmail.com</div>
+    <div class="subtitle">Data Engineer | ML/NLP (emerging)</div>
+    <div class="contact">Chennai, Tamil Nadu, India • +91 8973655202 • ashokmuthusamy99@gmail.com</div>
     <div class="links">
-      <a href="https://tinyurl.com/ashokmuthusamy" target="_blank">LinkedIn</a> |
-      <a href="https://github.com/naveeak" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/ashokkumar-97584a193" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/naveeak" target="_blank">GitHub</a> |
+      <a href="https://naveeak.github.io/resume.html" target="_blank">Portfolio</a>
     </div>
     <hr/>
 
-    <div class="summary-bar">Spark • Kafka • Spring Boot • Kubernetes • AWS • Hive • HBase • Grafana • Prometheus</div>
-    <hr/>
+    <div class="section">
+      <h2>Summary</h2>
+      <p>Data engineer with <strong>5+ years</strong> building real-time and batch pipelines that process billions of financial events daily at Citi India. Strong background in <strong>Apache Spark</strong>, <strong>Kafka Streams</strong>, and <strong>Kubernetes</strong>-based data platforms, with hands-on ownership of data lineage, governance, and observability for production systems. Recently completed the <strong>Databricks Certified Machine Learning Associate</strong> training and have been building on that with working knowledge of <strong>PyTorch</strong>, <strong>Scikit-learn</strong>, <strong>HuggingFace Transformers</strong>, and <strong>RAG pipelines</strong> using vector databases like Milvus. Looking to move into a role that combines solid data engineering fundamentals with growing ML/NLP capability.</p>
+    </div>
 
     <div class="section">
-      <h2>Professional Summary</h2>
-      <p>Results-driven <strong>Big Data Engineer</strong> with 4 + years of experience designing and implementing
-         <strong>scalable, cloud-ready data frameworks</strong> for financial analytics and compliance.
-         Expert in <strong>Apache Spark</strong>, <strong>Kafka Streams</strong>, and <strong>Spring Boot</strong>
-         microservices on <strong>Kubernetes</strong>. Skilled at building reliable <strong>ETL pipelines</strong>
-         and enabling observability with <strong>Grafana</strong> and <strong>Prometheus</strong>.
-         Passionate about optimizing large-scale data ingestion and real-time processing systems for high-performance analytics.</p>
+      <h2>Skills</h2>
+      <div class="skill-category"><strong>Data Engineering:</strong> Apache Spark (PySpark), Kafka Streams, Kubernetes, SQL, NoSQL, Hive, HBase, Couchbase, MongoDB, Cassandra, ETL pipeline design, data lineage, data quality frameworks, RBAC/access control, Apache Iceberg, Prometheus, Grafana</div>
+      <div class="skill-category"><strong>Python Development:</strong> FastAPI, Pandas, NumPy, PostgreSQL (working familiarity)</div>
+      <div class="skill-category"><strong>ML / Data Science:</strong> Feature engineering, classification & tree-based models, supervised/unsupervised learning, hyperparameter optimization, PyTorch, Scikit-learn, HuggingFace Transformers, MLflow, RAG pipelines with vector databases (Milvus)</div>
+      <div class="skill-category"><strong>Cloud & Platforms:</strong> AWS (Certified Solutions Architect – Associate), Cloudera</div>
+      <div class="skill-category"><strong>Languages:</strong> Tamil (native), English (professional working proficiency)</div>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+      <p><strong>Databricks Certified Machine Learning Associate</strong> — training covering feature engineering, classification and tree-based models, supervised/unsupervised learning, hyperparameter optimization, cross-validation, MLflow, and model deployment concepts</p>
+      <p><strong>AWS Certified Solutions Architect – Associate</strong></p>
     </div>
 
     <div class="section">
       <h2>Experience</h2>
 
-      <h3>Software Engineer (C11) — Citi India</h3>
-      <div class="contact">Chennai, India · Sep 2023 – Present</div>
+      <h3 class="job-title">Citi India — Chennai</h3>
+      
+      <p><strong>Software Engineer (C11)</strong> <span class="job-dates">• Sept 2023 – Present</span></p>
       <ul>
-        <li>Designed and implemented <strong>real-time, cloud-ready data frameworks</strong> using Kafka Streams, Spark, and Spring Boot on Kubernetes.</li>
-        <li>Developed ETL pipelines for analytics, compliance, and reporting workflows.</li>
-        <li>Enhanced system reliability and monitoring with Grafana and Prometheus.</li>
+        <li>Build and maintain cloud-native data platforms using Apache Spark and Kafka Streams running on Kubernetes (Spring-based microservices)</li>
+        <li>Develop real-time and batch ETL pipelines that support compliance reporting, client analytics, and fraud-detection use cases across global markets</li>
+        <li>Set up data lineage and data quality checks with automated validation to keep pipelines audit-ready; this work cut audit cycle time by roughly 40%</li>
+        <li>Enforce data security and access controls (RBAC, least-privilege) and contribute to broader data governance and metadata management efforts</li>
+        <li>Built out observability with Prometheus and Grafana, helping the team hold 99.7% uptime on mission-critical streaming workloads</li>
+        <li>Built a FastAPI backend to expose an internal "skill" endpoint for the team, giving hands-on Python backend development experience alongside data engineering</li>
+        <li>Work on backup, recovery, and resilience strategies for the platform</li>
       </ul>
 
-      <h3>Software Engineer (C10) — Citi India</h3>
-      <div class="contact">Jul 2021 – Sep 2023</div>
+      <p><strong>Software Engineer (C10)</strong> <span class="job-dates">• July 2021 – Sept 2023</span></p>
       <ul>
-        <li>Built data-ingestion systems handling millions of financial records using HBase, Hive, and Couchbase.</li>
-        <li>Improved data availability and performance for global financial analytics.</li>
+        <li>Ingested and managed millions of financial records into HBase, Hive, and Couchbase to support high-performance data access for global financial analytics and reporting</li>
       </ul>
 
-      <h3>Software Engineer (C09) — Citi India</h3>
-      <div class="contact">Aug 2020 – Jun 2021</div>
+      <p><strong>Software Engineer (C09)</strong> <span class="job-dates">• Aug 2020 – June 2021</span></p>
       <ul>
-        <li>Developed Spark-based ETL applications on Cloudera clusters processing FIX messages.</li>
-        <li>Optimized data transformation and storage for analytics-ready datasets.</li>
+        <li>Built ETL applications on Apache Spark over Cloudera clusters to process and enrich millions of FIX (Financial Information eXchange) messages, loading transformed data into the data lake for downstream analytics</li>
       </ul>
 
-      <h3>Software Engineer Intern — Anna University</h3>
-      <div class="contact">Apr 2019 – May 2019</div>
+      <h3 class="job-title">Anna University Chennai</h3>
+      <p><strong>Software Engineer Intern</strong> <span class="job-dates">• April 2019 – May 2019</span></p>
       <ul>
-        <li>Developed an <strong>IoT-based RFID and image-recognition infant security system</strong> for hospitals to ensure safe infant identification and monitoring (NHHID sponsored).</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Key Projects</h2>
-      <ul>
-        <li><strong>Real-Time Kafka–Spark Pipeline</strong> — Built streaming pipeline ingesting millions of Json and FIX messages via Spark Structured Streaming and persisted enriched data to HBase and MongoDB.</li>
-        <li><strong>Financial Data ETL Framework</strong> — Automated Spark enrichment and validation on Cloudera, achieving ~40 % faster data availability for reporting.</li>
+        <li>Part of a team that built an Infant Security System using RFID and image recognition for government hospitals, sponsored by the National Hub for Health Instrumentation and Development (NHHID)</li>
       </ul>
     </div>
 
     <div class="section">
       <h2>Education</h2>
-      <p><strong>B.E. — Electrical, Electronics & Communication</strong><br>Anna University, Chennai (2016 – 2020)</p>
-      <p><strong>HSC — Mathematics</strong><br>Veveaham Higher Secondary School, Dharapuram (2014 – 2016)</p>
-    </div>
-
-    <div class="section">
-      <h2>Certifications</h2>
-      <p>AWS Certified Solutions Architect – Associate (Amazon Web Services)</p>
-    </div>
-
-    <div class="section">
-      <h2>Technical Skills</h2>
-      <p>Big Data – Kafka – Spark – Hive – HBase – Couchbase | Cloud/DevOps – AWS – Kubernetes – Tekton – Harness | Backend – Java – Spring Boot | Monitoring – Grafana – Prometheus | Tools – Git – Jenkins – Linux – SQL</p>
-    </div>
-
-    <div class="section">
-      <h2>Languages</h2>
-      <p>English – Advanced · Tamil – Advanced</p>
+      <p><strong>Bachelor of Engineering — Electrical, Electronics and Communications Engineering</strong><br>Anna University Chennai (2016 – 2020)</p>
     </div>
   </div>
 </body>
